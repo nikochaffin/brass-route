@@ -1,0 +1,34 @@
+<link rel="import" href="../polymer/polymer.html">
+
+<!--
+`brass-router`
+A router components that takes an array of route definitions, or derives its routes from child elements
+
+@demo demo/index.html 
+-->
+
+<dom-module id="brass-router">
+  <template>
+    <style>
+      :host {
+        display: block;
+      }
+    </style>
+    <h2>Hello [[prop1]]</h2>
+  </template>
+
+  <script>
+    Polymer({
+
+      is: 'brass-router',
+
+      properties: {
+        prop1: {
+          type: String,
+          value: 'brass-router',
+        },
+      },
+
+    });
+  </script>
+</dom-module>
